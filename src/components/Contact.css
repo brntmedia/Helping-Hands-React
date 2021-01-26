@@ -1,0 +1,123 @@
+  .contact-container {
+    align-items: center;
+    max-width: 1120px;
+  }
+
+  .contact-item{
+    display: flex;
+    flex: 1;
+    margin: auto 5rem;
+    border-radius: 10px;
+  }
+  .contact-link{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    background: rgba(128, 128, 128, .3);
+  }
+  .contact-wrap{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .contact-items {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .contact-item {
+      margin-bottom: 2rem;
+      flex-flow: column;
+      justify-content: center;
+    }
+  }
+
+  /* Contact.js */
+  
+.contact-text{
+  text-align: left;
+  margin: 90px 0 50px 50px;
+  font-size: 20px;
+  width: 300x;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+  margin: 50px 50px;
+}
+
+.contact-form > h1 {
+  margin-bottom: 20px;
+}
+
+.contact-form > input,
+textarea {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  font-size: 16px;
+  color: black;
+  outline: none;
+  min-width: 300px;
+}
+
+.contact-form > input:focus,
+textarea:focus {
+  border-radius: 3px;
+  border: 1px solid #FF4500;
+  opacity: .8;
+  color: black;
+  background: rgba(197, 197, 197, 0.8);
+}
+
+.contact-form > textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+
+.contact-form > label {
+  padding-bottom: 10px;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+}
+
+.contact-form > button {
+  padding: 20px;
+  border: none;
+  background-color: #FF4500;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #242424;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+  border: transparent 1px solid;
+}
+
+.contact-form > button:hover {
+  background-color: #ffffff;
+  border: #242422 1px solid;
+  color: #242424;
+}
