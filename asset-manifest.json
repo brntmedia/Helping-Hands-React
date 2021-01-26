@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Helping-Hands-React/static/css/main.cce275cd.chunk.css",
+    "main.js": "/Helping-Hands-React/static/js/main.5f10f519.chunk.js",
+    "main.js.map": "/Helping-Hands-React/static/js/main.5f10f519.chunk.js.map",
+    "runtime-main.js": "/Helping-Hands-React/static/js/runtime-main.c916dc2b.js",
+    "runtime-main.js.map": "/Helping-Hands-React/static/js/runtime-main.c916dc2b.js.map",
+    "static/js/2.a0d72d16.chunk.js": "/Helping-Hands-React/static/js/2.a0d72d16.chunk.js",
+    "static/js/2.a0d72d16.chunk.js.map": "/Helping-Hands-React/static/js/2.a0d72d16.chunk.js.map",
+    "index.html": "/Helping-Hands-React/index.html",
+    "static/css/main.cce275cd.chunk.css.map": "/Helping-Hands-React/static/css/main.cce275cd.chunk.css.map",
+    "static/js/2.a0d72d16.chunk.js.LICENSE.txt": "/Helping-Hands-React/static/js/2.a0d72d16.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Helping-Hands-React/static/media/pexels-sindre-strøm-966387.1fb31247.jpg",
+    "static/media/Hero.css": "/Helping-Hands-React/static/media/pexels-pixabay-271667.7a8bb8b8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c916dc2b.js",
+    "static/js/2.a0d72d16.chunk.js",
+    "static/css/main.cce275cd.chunk.css",
+    "static/js/main.5f10f519.chunk.js"
+  ]
+}
